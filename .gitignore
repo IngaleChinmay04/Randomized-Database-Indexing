@@ -1,0 +1,26 @@
+# Compiled binaries
+*.exe
+*.o
+*.out
+*.bin
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Database files (unless you want to include sample data)
+crud_database.bin
+
+# OS specific files
+.DS_Store
+Thumbs.db
