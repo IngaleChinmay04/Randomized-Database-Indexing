@@ -8,4 +8,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add the executable
-add_executable(Randomized-Database-Indexing main.c)
+add_executable(Randomized-Database-Indexing
+    main.c
+    skiplist.c
+    record.c
+    persistence.c
+)
