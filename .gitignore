@@ -20,7 +20,8 @@
 
 # Database files (unless you want to include sample data)
 crud_database.bin
-
+crud_db
+test_runner
 # OS specific files
 .DS_Store
 Thumbs.db

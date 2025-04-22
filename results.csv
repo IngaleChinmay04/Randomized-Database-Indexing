@@ -1,0 +1,6 @@
+test_type,N,M,total_time_s,avg_time_per_op_s
+insert,100000,100000,0.097771,0.000000978
+test_type,N,M,total_time_s,avg_time_per_op_s
+search,100000,5000,0.005635,0.000001127
+test_type,N,M,total_time_s,avg_time_per_op_s
+delete,100000,5000,0.006882,0.000001376
