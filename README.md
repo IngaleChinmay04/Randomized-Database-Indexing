@@ -27,6 +27,7 @@ If you don't have Make installed on Windows, you can compile the application man
 1. Ensure you have GCC installed (check with `gcc --version`)
 
 2. Compile the source files:
+
    ```
    gcc -Wall -Wextra -g -O2 -c main.c -o main.o
    gcc -Wall -Wextra -g -O2 -c skiplist.c -o skiplist.o
@@ -45,11 +46,13 @@ If you don't have Make installed on Windows, you can compile the application man
 If you want to use Make on Windows:
 
 1. Install Make through one of these methods:
+
    - Install [MinGW](https://www.mingw-w64.org/downloads/) which includes Make
    - Install [Chocolatey](https://chocolatey.org/install) and then run `choco install make`
    - Install [MSYS2](https://www.msys2.org/) which provides a Linux-like environment
 
 2. Build the project:
+
    ```
    make
    ```
@@ -62,6 +65,7 @@ If you want to use Make on Windows:
 ## Getting Started on Linux/macOS
 
 1. Make sure you have GCC and Make installed:
+
    ```
    sudo apt-get install gcc make   # Ubuntu/Debian
    sudo yum install gcc make       # CentOS/RHEL
@@ -69,6 +73,7 @@ If you want to use Make on Windows:
    ```
 
 2. Build the project:
+
    ```
    make
    ```
@@ -125,6 +130,7 @@ Here are some example commands to get started:
 ## Performance Characteristics
 
 The Skip List implementation provides:
+
 - Average O(log n) search, insert, and delete operations
 - Efficient memory usage compared to tree-based structures
 - Fast sequential access for range queries
@@ -135,10 +141,7 @@ The Skip List implementation provides:
 - **Database loading fails**: Make sure the file exists and has correct permissions.
 - **Performance issues with large datasets**: Tune the MAX_LEVEL parameter in skiplist.h.
 
-## License
-
-This project is available under the MIT License.
-
 ## Contributors
 
-- [Your Name] - Initial implementation
+- [Hritesh Maikap](https://github.com/hriteshMaikap)
+- [Chinmay Ingale](https://github.com/IngaleChinmay04)
